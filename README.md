@@ -10,8 +10,8 @@ This project is my first step into learning React, styled with **Pokémon-themed
 ### 🎥 Live Demo GIF  
 ![Demo](./assets/counter-assets/ScreenRecording2025-08-23213501-ezgif.com-video-to-gif-converter.gif)  
 
-### 🖼️ Screenshot  
-![Screenshot](./assets/counter-assets/Screenshot%202025-08-23%20213310.png)  
+<!-- ### 🖼️ Screenshot  
+![Screenshot](./assets/counter-assets/Screenshot%202025-08-23%20213310.png)   -->
 
 ---
 
@@ -47,3 +47,17 @@ basic-project/
 │   └── main.jsx            # Entry point
 │── package.json
 │── README.md
+
+---
+
+💡 Learnings
+
+Through this project, I practiced:
+Using React hooks (useState).
+Creating and reusing components.
+Writing custom CSS animations.
+Managing project structure in React.
+
+🧑‍💻 Author
+
+Made with ❤️ by Abdullah Arif
