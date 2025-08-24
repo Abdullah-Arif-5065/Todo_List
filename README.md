@@ -55,16 +55,16 @@ No external database used (all data is managed in React state).
 
 ## 🗂️ Project Structure
 basic-project/
-│── assets/
-│ └── todo-assets/
-│ └── preview.gif
-│── src/
-│ ├── App.js
-│ ├── App.css
-│ └── components/
-│ └── Todo.jsx
-│── package.json
-│── README.md
+├── assets/
+│   └── todo-assets/
+│       └── preview.gif
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   └── components/
+│       └── Todo.jsx
+├── package.json
+└── README.md
 \'\'\'
 
 ---
