@@ -1,63 +1,94 @@
-# 🐦‍🔥 Pokémon-Themed Counter App  
+cd "E:/Mini projects/basic-project"
 
-A fun **React mini-project** that demonstrates the basics of React state management with a Pokémon-inspired UI.  
-This project is my first step into learning React, styled with **Pokémon-themed CSS animations** for a creative touch.  
+# Update README with Preview caption + Project Structure above How to Run
+echo '# 📝 Todo List App  
 
----
-
-## 📸 Demo  
-
-### 🎥 Live Demo GIF  
-![Demo](./assets/counter-assets/ScreenRecording2025-08-23213501-ezgif.com-video-to-gif-converter.gif)  
-
-<!-- ### 🖼️ Screenshot  
-![Screenshot](./assets/counter-assets/Screenshot%202025-08-23%20213310.png)   -->
+### Vision Statement  
+“A minimal and distraction-free Todo app built with React to organize daily tasks with clarity and simplicity.”  
 
 ---
 
-## ✨ Features  
-- 🎨 **Pokémon-inspired theme** (Mewtwo background, Pokéball buttons).  
-- 🔥 **Interactive counter** with increment and decrement.  
-- ⚡ **Glowing animations** for a playful design.  
-- 🖥️ Responsive, clean, and centered UI.  
-- 🪄 Built with **React Hooks (`useState`)**.  
+### 🎥 Preview  
+Here’s how the app looks in action:  
+![Todo Preview](./assets/todo-assets/preview.gif)  
 
 ---
 
-## 🛠️ Tech Stack  
-- **React** (Vite setup)  
-- **JavaScript (ES6+)**  
-- **CSS3** (custom animations & theming)  
+### 🎯 Role & Responsibilities  
+- Concept ideation and design of the Todo app  
+- Developed using React functional components and Hooks (`useState`)  
+- Implemented add/remove functionality with unique ID handling  
+- Styled the interface with custom CSS for a clean experience  
 
 ---
 
-## 📂 Project Structure  
+### ⚙️ Frameworks & Tools  
+- **React.js** → Component-based UI development  
+- **JavaScript (ES6+)** → Logic handling  
+- **CSS3** → Styling and layout  
 
-```bash
+---
+
+### 📚 Data Structures Used  
+- **Array** → To store and update todos dynamically  
+- **Object** → Each todo stored as `{ text, id }` for easy manipulation  
+
+---
+
+### 🌐 Database  
+- No external database used (all data is managed in **React state**)  
+
+---
+
+### ✨ Features  
+- ➕ Add new tasks instantly  
+- ❌ Remove tasks with a single click  
+- 🔄 Real-time update of list (without refresh)  
+- 🎨 Lightweight, simple, and responsive design  
+
+---
+
+### 🧑‍🎓 Learnings  
+- Mastered `useState` for state management in React  
+- Practiced list rendering with `.map()`  
+- Implemented delete functionality using `.filter()`  
+- Understood component reactivity in React  
+
+---
+
+### 🗂️ Project Structure  
+\`\`\`bash
 basic-project/
 │── assets/
-│   └── counter-assets/
-│       ├── Screenshot 2025-08-23 213310.png
-│       └── ScreenRecording2025-08-23213501-ezgif.com-video-to-gif-converter.gif
+│   └── todo-assets/
+│       └── preview.gif
 │── src/
-│   ├── components/
-│   │   └── Counter.jsx     # Main counter component
-│   ├── App.jsx             # Root app
-│   ├── App.css             # Styling
-│   └── main.jsx            # Entry point
+│   ├── App.js
+│   ├── App.css
+│   └── components/
+│       └── Todo.jsx
 │── package.json
 │── README.md
+\`\`\`  
 
 ---
 
-💡 Learnings
+### 🚀 How to Run  
+\`\`\`bash
+# Clone repo
+git clone https://github.com/your-username/todo-list-app.git  
 
-Through this project, I practiced:
-Using React hooks (useState).
-Creating and reusing components.
-Writing custom CSS animations.
-Managing project structure in React.
+# Navigate
+cd todo-list-app  
 
-🧑‍💻 Author
+# Install dependencies
+npm install  
 
-Made with ❤️ by Abdullah Arif
+# Run
+npm start  
+\`\`\`  
+
+---
+
+### 👨‍💻 Author  
+Crafted with focus and curiosity by **Abdullah Arif**  
